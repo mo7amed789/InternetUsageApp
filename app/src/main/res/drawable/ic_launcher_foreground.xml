@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Speedometer Arc -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M34,68 A26,26 0 1,1 74,68" />
+
+    <!-- High-speed arc segment glow -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38E8A5"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M64,30.5 A26,26 0 0,1 74,68" />
+
+    <!-- Center pivot point -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,50 A5,5 0 1,0 54,60 A5,5 0 1,0 54,50" />
+
+    <!-- Gauge Needle pointing upward-right -->
+    <path
+        android:fillColor="#38E8A5"
+        android:pathData="M52.5,55 L55.5,55 L67,37 L52.5,55 Z" />
+
+    <!-- Download / Upload subtle arrows at bottom -->
+    <!-- Down Arrow (Download) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M44,72 L44,80 L40,80 L46,86 L52,80 L48,80 L48,72 Z" />
+
+    <!-- Up Arrow (Upload) -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M60,86 L60,78 L56,78 L62,72 L68,78 L64,78 L64,86 Z" />
+</vector>

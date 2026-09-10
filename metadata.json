@@ -1,0 +1,6 @@
+{
+  "name": "DataPulse - مراقب البيانات",
+  "description": "تطبيق متكامل لمراقبة استهلاك الإنترنت والبيانات (واي فاي وشبكة الهاتف)، مؤشر سرعة فوري، ووضع توفير البيانات.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
